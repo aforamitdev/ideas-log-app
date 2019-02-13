@@ -1,0 +1,11 @@
+{{#each ideas}}
+<div class="card card-body mb-2">
+    <h4>{{title}}</h4>
+    <p>{{disc}}</p>
+    <a class="btn btn-dark btn-block" href="/ideas/edit/{id}">Edit</a>
+</div>
+
+{{else}}
+
+<p>node ideas</p>
+{{/each}}
